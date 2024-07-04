@@ -16,6 +16,8 @@ html{
   padding-right: 0.5rem;
 }
 
+
+
 /* xs */
 @media (min-width: 475px) {
   .container {
