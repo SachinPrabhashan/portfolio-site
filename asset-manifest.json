@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/portfolio-site/static/css/main.341d65fc.css",
+    "main.js": "/portfolio-site/static/js/main.abf3ba8f.js",
+    "static/js/453.534db5b8.chunk.js": "/portfolio-site/static/js/453.534db5b8.chunk.js",
+    "static/media/icons8-adobe-photoshop.svg": "/portfolio-site/static/media/icons8-adobe-photoshop.2ae54e0a93b1fe44f804e5bf1337f5d7.svg",
+    "static/media/icons8-react-native.svg": "/portfolio-site/static/media/icons8-react-native.9235e8f8e2b73d394801330aba87511f.svg",
+    "static/media/icons8-bootstrap.svg": "/portfolio-site/static/media/icons8-bootstrap.c1e26fbcea3de8af8e39cd250603395f.svg",
+    "static/media/icons8-js.svg": "/portfolio-site/static/media/icons8-js.fabe1e9b193a5b86c7467a70ba5d736a.svg",
+    "index.html": "/portfolio-site/index.html",
+    "static/media/icons8-git.svg": "/portfolio-site/static/media/icons8-git.9e5efe4a58d251d445603088a1667119.svg",
+    "static/media/icons8-css.svg": "/portfolio-site/static/media/icons8-css.db7dfd1247623e1e9223d8ef28a37432.svg",
+    "static/media/icons8-html.svg": "/portfolio-site/static/media/icons8-html.a026abbb678246d70ee9b70e4aee972c.svg",
+    "static/media/icons8-adobe-lightroom.svg": "/portfolio-site/static/media/icons8-adobe-lightroom.3578dca23473540b37f9697c4653ea8a.svg",
+    "main.341d65fc.css.map": "/portfolio-site/static/css/main.341d65fc.css.map",
+    "main.abf3ba8f.js.map": "/portfolio-site/static/js/main.abf3ba8f.js.map",
+    "453.534db5b8.chunk.js.map": "/portfolio-site/static/js/453.534db5b8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.341d65fc.css",
+    "static/js/main.abf3ba8f.js"
+  ]
+}
