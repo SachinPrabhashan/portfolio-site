@@ -1,0 +1,28 @@
+:root {
+    --primary: #e0ff02;
+    --secondary: #3d3b47;
+    --background: #111111;
+  }
+
+.portfoliotile{
+    
+}
+
+.portfoliotileimage img{
+    width: 300px;
+}
+
+.portfoliotileinfo{
+    position: relative;
+    top:-303px;
+    background-color: rgb(40, 40, 40, 0.80);
+    padding-top: 78px;
+    padding-bottom: 100px;
+    
+}
+
+.portfoliotileinfo a{
+    text-decoration: none;
+    color: var(--primary);
+}
+
