@@ -7,7 +7,7 @@ function Experiences() {
         <div>
             <h1>Experiences</h1>
         </div>
-      <div>
+      <div className="expsets">
         <Experiencesset
           JobRole={"Software Developer (Intern)"}
           CompanyName={"SENSKA (Pvt) Ltd."}

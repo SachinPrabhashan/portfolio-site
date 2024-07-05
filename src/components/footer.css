@@ -1,0 +1,16 @@
+.FooterNote img{
+    position: relative;
+    top: 10px;
+}
+
+.footersection{
+    text-align: center;
+}
+
+p.love{
+    margin-bottom: 0;
+}
+
+p.powered{
+    margin-top: 0;
+}

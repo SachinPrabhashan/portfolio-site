@@ -1,0 +1,16 @@
+:root {
+    --primary: #e0ff02;
+    --secondary: #3d3b47;
+    --background: #111111;
+  }
+
+.experiencessection{
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.expsets{
+    margin: auto 50px;
+    text-align: left;
+}
