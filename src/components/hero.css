@@ -1,0 +1,47 @@
+:root {
+  --primary: #e0ff02;
+  --secondary: #3d3b47;
+  --background: #2c2c2c;
+}
+
+.herosectioncom{
+    width: 90%;
+    margin: auto;
+}
+
+.herosectioncom h1{
+    margin-bottom: 0;
+}
+
+.herosectioncom b{
+    color: var(--primary);
+}
+
+.herosectioncom h3{
+    margin-top: 2px;
+}
+
+.aboutsection h1{
+    text-align: center;
+}
+
+.profileimage img{
+    width: 100%;
+    position: relative;
+    
+}
+
+.backgrounddots1{
+    position: absolute;
+    top: 450px;
+}
+
+.herosectioncom{
+    padding-bottom: 80px;
+}
+
+.aboutsection{
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 80px;
+}

@@ -6,7 +6,6 @@ function Portfolioset({ PortImage, PortName, PortDesc, PortLinks }) {
       <div className="portfoliotileimage">
         <img src={PortImage} />
       </div>
-      <div className="portfoliotileinfosection">
         <div className="portfoliotileinfo">
           <h3>{PortName}</h3>
           <p>{PortDesc}</p>
@@ -14,7 +13,6 @@ function Portfolioset({ PortImage, PortName, PortDesc, PortLinks }) {
             Learn More
           </a>
         </div>
-      </div>
     </div>
   );
 }

@@ -4,28 +4,43 @@
   --background: #111111;
 }
 
-.socialicon{
-    display: flex;
-    background-color: var(--secondary);
-    border-radius: 30px;
-    color: var(--primary);
-    width: 80%;
-    margin: 10px auto;
+.socialicon {
+  display: flex;
+  background-color: var(--secondary);
+  border-radius: 30px;
+  color: var(--primary);
+  width: 80%;
+  margin: 10px auto;
 }
 
-.socialicon img{
-    width: 35px;
-    height: 35px;
-    margin: auto 20px;
+.socialicon img {
+  width: 35px;
+  height: 35px;
+  margin: auto 20px ;
 }
 
-.contactssection{
-    text-align: center;
-    margin: 0 auto;
-    padding-bottom: 80px;
+.socialiconbtn {
+  display: flex;
+  justify-content: center;
 }
 
-.emailtext{
-    font-size: 12pt;
-    padding: 5px 0 5px 0;
+.socialiconbtn img {
+  width: 35px;
+  height: 35px;
+  margin: 5px;
+}
+
+.contactssection {
+  text-align: center;
+  margin: 0 auto;
+  padding-bottom: 80px;
+}
+
+.emailtext {
+  font-size: 12pt;
+  padding: 5px 0 5px 0;
+}
+
+.socialicon a {
+  text-decoration: none;
 }

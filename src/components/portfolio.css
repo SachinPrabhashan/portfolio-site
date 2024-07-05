@@ -1,25 +1,42 @@
 :root {
-    --primary: #e0ff02;
-    --secondary: #3d3b47;
-    --background: #111111;
-  }
-
-
-.portfoliotileimage img{
-    width: 300px;
+  --primary: #e0ff02;
+  --secondary: #3d3b47;
+  --background: #111111;
 }
 
-.portfoliotileinfo{
-    position: relative;
-    top:-303px;
-    background-color: rgb(40, 40, 40, 0.80);
-    padding-top: 78px;
-    padding-bottom: 100px;
-    
+.portfoliotileimage img {
+  width: 300px;
 }
 
-.portfoliotileinfo a{
-    text-decoration: none;
-    color: var(--primary);
+.portfoliotileinfo {
+  position: relative;
+  top: -303px;
+  background-color: rgb(40, 40, 40, 0.8);
+  width: 300px;
+  margin: auto;
+  opacity: 0;
+}
+
+.portfoliotileinfo {
+  padding-top: 80px;
+  padding-bottom: 100px;
+}
+
+.portfoliosection {
+  text-align: center;
+}
+
+.portfoliotileinfo:hover {
+  opacity: 100;
+  transition: 0.3s ease;
+}
+
+.portfoliotileinfo a {
+  text-decoration: none;
+  color: var(--primary);
+}
+
+.portfoliotile{
+  height: 320px;
 }
 

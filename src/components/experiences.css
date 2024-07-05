@@ -14,3 +14,8 @@
     margin: auto 50px;
     text-align: left;
 }
+
+.experiencessection{
+    /* background-color: var(--secondary); */
+    width: 100%;
+}

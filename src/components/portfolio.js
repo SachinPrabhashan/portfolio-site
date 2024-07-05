@@ -9,11 +9,20 @@ function Portfolio() {
       <div>
         <h1>Portfolio</h1>
       </div>
-      <div className="portfoliosection">
+      <div className="portfoliosection01">
         <Portfolioset
           PortImage={PortImg01}
           PortName={"Secure Spot"}
           PortDesc={"University Locker Booking System"}
+          PortLinks={"www.github.com"}
+        />
+      </div>
+
+      <div className="portfoliosection01">
+        <Portfolioset
+          PortImage={PortImg01}
+          PortName={"TeamTrek"}
+          PortDesc={"Employee Tracking Management System"}
           PortLinks={"www.github.com"}
         />
       </div>

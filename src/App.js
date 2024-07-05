@@ -4,6 +4,8 @@ import "./components/portfolio.css";
 import "./components/experiences.css";
 import "./components/contacts.css";
 import "./components/footer.css";
+import "./components/hero.css";
+
 import React from "react";
 import Skills from "./components/skills";
 import Hero from "./components/hero";
@@ -15,15 +17,17 @@ import Footer from "./components/footer";
 function App() {
   return (
     <div className="container">
-      <Hero />
+      <div className="herosection">
+        <Hero />
+      </div>
       <div className="skillsetsection">
         <Skills />
       </div>
       <div className="portfoliosection">
-      <Portfolio />
+        <Portfolio />
       </div>
       <div className="experiencessection">
-      <Experiences />
+        <Experiences />
       </div>
       <div className="contactssection">
         <Contacts />
