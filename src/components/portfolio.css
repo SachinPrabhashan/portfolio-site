@@ -10,25 +10,29 @@
 
 .portfoliotileinfo {
   position: relative;
-  top: -303px;
-  background-color: rgb(40, 40, 40, 0.8);
-  width: 300px;
-  margin: auto;
+  top: -304px;
+  background: rgb(40, 40, 40, 0.8);
+  width: 100%;
+  height: 50%;
+
+  padding-bottom: 25%;
+  padding-top: 25%;
+
+  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   opacity: 0;
 }
 
-.portfoliotileinfo {
-  padding-top: 80px;
-  padding-bottom: 100px;
+.portfoliotileinfo:hover {
+  opacity: 1;
+  transition: 0.5s ease;
 }
 
 .portfoliosection {
   text-align: center;
-}
-
-.portfoliotileinfo:hover {
-  opacity: 100;
-  transition: 0.3s ease;
+  padding-bottom: 80px;
 }
 
 .portfoliotileinfo a {
@@ -36,7 +40,8 @@
   color: var(--primary);
 }
 
-.portfoliotile{
-  height: 320px;
+.portfoliotile {
+  width: 300px;
+  height: 300px;
+  margin: 10px auto;
 }
-

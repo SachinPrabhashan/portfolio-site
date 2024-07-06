@@ -10,6 +10,7 @@ import Skill06 from "../assets/images/icons8-adobe-photoshop.svg";
 import Skill07 from "../assets/images/icons8-adobe-lightroom.svg";
 import Skill08 from "../assets/images/icons8-react-native.svg";
 import Skill09 from "../assets/images/icons8-git.svg";
+import Skill10 from "../assets/images/icons8-laravel-96.svg";
 
 function Skills() {
   return (
@@ -22,7 +23,7 @@ function Skills() {
         <Skillset skillimage={Skill02} skillname={"CSS"} />
         <Skillset skillimage={Skill03} skillname={"JavaScript"} />
         <Skillset skillimage={Skill04} skillname={"Bootstrap 5"} />
-        <Skillset skillimage={Skill05} skillname={"Laravel"} />
+        <Skillset skillimage={Skill10} skillname={"Laravel"} />
         <Skillset skillimage={Skill08} skillname={"React.JS"} />
         <Skillset skillimage={Skill06} skillname={"Photoshop"} />
         <Skillset skillimage={Skill07} skillname={"Lightroom"} />

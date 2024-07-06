@@ -4,44 +4,65 @@
   --background: #2c2c2c;
 }
 
-.herosectioncom{
-    width: 90%;
-    margin: auto;
+.herosectioncom {
+  width: 90%;
+  margin: auto;
 }
 
-.herosectioncom h1{
-    margin-bottom: 0;
+.herosectioncom h1 {
+  margin-bottom: 0;
 }
 
-.herosectioncom b{
-    color: var(--primary);
+.herosectioncom b {
+  color: var(--primary);
 }
 
-.herosectioncom h3{
-    margin-top: 2px;
+.herosectioncom h3 {
+  margin-top: 2px;
 }
 
-.aboutsection h1{
-    text-align: center;
+.aboutsection h1 {
+  text-align: center;
 }
 
-.profileimage img{
-    width: 100%;
-    position: relative;
-    
+.profileimage {
+  overflow: hidden;
 }
 
-.backgrounddots1{
-    position: absolute;
-    top: 450px;
+.profileimage img {
+  width: 100%;
+  position: relative;
 }
 
-.herosectioncom{
-    padding-bottom: 80px;
+.backgrounddots1 {
+  position: absolute;
+  top: 450px;
 }
 
-.aboutsection{
-    width: 90%;
-    margin: 0 auto;
-    padding-bottom: 80px;
+.backgrounddots1 {
+  transform: translateX(-100%);
+  transition: transform 1s ease-in-out;
+}
+
+.backgrounddots1.active {
+  transform: translateX(0);
+}
+
+.herosectioncom {
+  padding-bottom: 80px;
+}
+
+.aboutsection {
+  width: 90%;
+  margin: 0 auto;
+  padding-bottom: 80px;
+}
+
+.slide-in {
+  transform: translateX(70%);
+  transition: transform 1s ease-in-out;
+}
+
+.slide-in.active {
+  transform: translateX(0);
 }

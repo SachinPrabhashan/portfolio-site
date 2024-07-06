@@ -1,7 +1,28 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import ProfileImg from "../assets/images/dgsgd.webp";
 
 function Hero() {
+
+  const imageRef = useRef(null);
+
+  useEffect(() =>{
+    const imageElement = imageRef.current;
+
+    setTimeout(() =>{
+      imageElement.classList.add('active');
+    },100);
+  }, []);
+
+  const dot9Ref = useRef(null);
+
+  useEffect(() =>{
+    const dot9Element = dot9Ref.current;
+
+    setTimeout(() =>{
+      dot9Element.classList.add('active');
+    },100);
+  },[]);
+
   return (
     <div>
       <div className="herosectioncom">
@@ -15,10 +36,10 @@ function Hero() {
         </div>
 
         <div className="profileimage">
-          <img src={ProfileImg} />
+          <img src={ProfileImg} className="slide-in" ref={imageRef}/>
         </div>
 
-        <span className="backgrounddots1">
+        <span className="backgrounddots1" ref={dot9Ref}>
           <div class="dot-container">
             <span class="dot"></span>
             <span class="dot"></span>

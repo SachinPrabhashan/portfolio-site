@@ -1,7 +1,8 @@
 import React from "react";
 import Portfolioset from "./portfolioset";
 
-import PortImg01 from "../assets/images/Portfolio/portimages (1).jpg";
+import PortImg01 from "../assets/images/Portfolio/teamtrek.com_(720p Monitor).png";
+import PortImg02 from "../assets/images/Portfolio/portfolio-1.jpg";
 
 function Portfolio() {
   return (
@@ -11,10 +12,10 @@ function Portfolio() {
       </div>
       <div className="portfoliosection01">
         <Portfolioset
-          PortImage={PortImg01}
+          PortImage={PortImg02}
           PortName={"Secure Spot"}
           PortDesc={"University Locker Booking System"}
-          PortLinks={"www.github.com"}
+          PortLinks={"https://github.com/SachinPrabhashan/SecureSpot"}
         />
       </div>
 
@@ -23,7 +24,7 @@ function Portfolio() {
           PortImage={PortImg01}
           PortName={"TeamTrek"}
           PortDesc={"Employee Tracking Management System"}
-          PortLinks={"www.github.com"}
+          PortLinks={"https://github.com/SachinPrabhashan/TeamTrek"}
         />
       </div>
     </div>

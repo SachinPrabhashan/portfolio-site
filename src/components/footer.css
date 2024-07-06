@@ -14,3 +14,11 @@ p.love{
 p.powered{
     margin-top: 0;
 }
+
+.love img{
+    width: 30px;
+}
+
+.powered img{
+    width:30px
+}

@@ -1,6 +1,6 @@
 import React from "react";
-import heart from "../assets/images/icons8-heart-30.png";
-import reactlogo from "../assets/images/icons8-react-native-30.png";
+import heart from "../assets/images/heart-svgrepo-com.svg";
+import reactlogo from "../assets/images/icons8-react-native.svg";
 
 function Footer() {
   return (
