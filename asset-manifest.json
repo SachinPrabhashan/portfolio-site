@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/portfolio-site/static/css/main.500d529f.css",
-    "main.js": "/portfolio-site/static/js/main.b8be8fba.js",
+    "main.css": "/portfolio-site/static/css/main.fcdffa53.css",
+    "main.js": "/portfolio-site/static/js/main.8be4bcd9.js",
     "static/js/453.534db5b8.chunk.js": "/portfolio-site/static/js/453.534db5b8.chunk.js",
+    "static/media/dgsgd.webp": "/portfolio-site/static/media/dgsgd.50328036932e17739a77.webp",
     "static/media/portimages (1).jpg": "/portfolio-site/static/media/portimages (1).175c2ee614f5e14e5b9f.jpg",
     "static/media/icons8-adobe-photoshop.svg": "/portfolio-site/static/media/icons8-adobe-photoshop.2ae54e0a93b1fe44f804e5bf1337f5d7.svg",
     "static/media/icons8-react-native.svg": "/portfolio-site/static/media/icons8-react-native.9235e8f8e2b73d394801330aba87511f.svg",
@@ -13,12 +14,12 @@
     "static/media/icons8-css.svg": "/portfolio-site/static/media/icons8-css.db7dfd1247623e1e9223d8ef28a37432.svg",
     "static/media/icons8-html.svg": "/portfolio-site/static/media/icons8-html.a026abbb678246d70ee9b70e4aee972c.svg",
     "static/media/icons8-adobe-lightroom.svg": "/portfolio-site/static/media/icons8-adobe-lightroom.3578dca23473540b37f9697c4653ea8a.svg",
-    "main.500d529f.css.map": "/portfolio-site/static/css/main.500d529f.css.map",
-    "main.b8be8fba.js.map": "/portfolio-site/static/js/main.b8be8fba.js.map",
+    "main.fcdffa53.css.map": "/portfolio-site/static/css/main.fcdffa53.css.map",
+    "main.8be4bcd9.js.map": "/portfolio-site/static/js/main.8be4bcd9.js.map",
     "453.534db5b8.chunk.js.map": "/portfolio-site/static/js/453.534db5b8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.500d529f.css",
-    "static/js/main.b8be8fba.js"
+    "static/css/main.fcdffa53.css",
+    "static/js/main.8be4bcd9.js"
   ]
 }
